@@ -1,0 +1,70 @@
+#Main_w {
+  display: flex;
+  top: 660px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4f9;
+  width: 100vw;
+  height: 500px;
+}
+
+.image_w {
+  height: 500px;
+  width: 90%;
+}
+
+#text_w {
+  margin-top: -300px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#text_w h1 {
+  font-size: 50px;
+  font-weight: 450;
+  margin-bottom: 5px;
+}
+#text_w h4 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 350;
+}
+.LinkText {
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px 0 20px;
+}
+.LinkText a {
+  margin: 0 20px 0 20px;
+  font-size: 19px;
+  color: #06c;
+}
+.LinkText a:hover {
+  text-decoration: underline;
+}
+
+h5 {
+  color: #cc2127;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h6 {
+  color: #cc723c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.logo_w {
+  display: flex;
+  flex-direction: row;
+}
+.logoImg_w {
+  height: 54px !important;
+  width: 48px !important;
+  margin-top: 3px;
+}

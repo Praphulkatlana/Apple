@@ -1,0 +1,52 @@
+#mainDiv {
+  position: absolute;
+  top: 1740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+#cardDiv {
+  margin: 10px;
+  height: 400px;
+  width: 47%;
+  background-color: blueviolet;
+}
+
+#cardDiv img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  /* object-fit: contain; */
+}
+
+#Cardcontainer {
+  position: absolute;
+  margin: 0 30px 0 30px;
+  height: 100px;
+  width: 40vw;
+  overflow-wrap: break-word;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-wrap: break-word;
+}
+.MrgTB {
+  margin: 10px 0 10px 0;
+}
+#Cardcontainer h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 8px 30px 0 30px;
+}
+#Cardcontainer h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+#Cardcontainer a {
+  margin: 0 20px 0 20px;
+  font-size: 17px;
+  color: #06c;
+}

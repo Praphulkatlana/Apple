@@ -1,0 +1,73 @@
+#Main_tv {
+  display: flex;
+  top: 1170px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4f9;
+  width: 100vw;
+  height: 550px;
+}
+
+.image_tv {
+  height: 100%;
+  width: 100vw;
+}
+
+#text_tv1 {
+  margin-top: -370px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#text_tv2 {
+  margin-top: 380px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#text_tv1 h1 {
+  margin-top: -10px;
+  font-size: 65px;
+  font-weight: 300;
+}
+#text_tv1 h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+#text_tv2 h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+#text_tv2 h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.LinkText {
+  display: flex;
+  flex-direction: row;
+  margin: 0 30px 0 20px;
+}
+.LinkText a {
+  margin: 0 20px 0 20px;
+  font-size: 19px;
+  color: #06c;
+}
+.LinkText a:hover {
+  text-decoration: underline;
+}
+#bottomText {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.playIcon {
+  margin-left: 5px;
+}
